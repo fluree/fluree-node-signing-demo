@@ -35,7 +35,8 @@ const { network, db, port, url, privateKey } = yargs(hideBin(process.argv))
 	.option('k', {
 		alias: 'privateKey',
 		desc: 'private key for the user to sign comms to fluree backend',
-		type: 'string'
+		type: 'string',
+		demandOption: true
 	}
 	)
 	.argv
