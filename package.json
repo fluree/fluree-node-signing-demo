@@ -1,0 +1,33 @@
+{
+  "name": "flureecli",
+  "version": "1.0.0",
+  "description": "Node script to issue signed queries and transactions againt named FlureeHub datasets ",
+  "main": "fluree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tr3yb0/flureecli.git"
+  },
+  "keywords": [
+    "fluree",
+    "flureecli",
+    "cli",
+    "fluree.cli"
+  ],
+  "author": "Tr3yb0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tr3yb0/flureecli/issues"
+  },
+  "homepage": "https://github.com/fdmmarshall/flureecli#readme",
+  "dependencies": {
+    "@fluree/crypto-utils": "^1.9.0",
+    "@fluree/flureenjs": "^1.0.0-rc56",
+    "node-fetch": "^3.2.0",
+    "yargs": "^17.3.1"
+  },
+  "type": "module",
+  "bin": "fluree.js"
+}
