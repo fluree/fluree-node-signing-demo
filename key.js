@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { generateKeyPair, getSinFromPublicKey } from "@fluree/crypto-utils";
 
 const {privateKey, publicKey} = generateKeyPair();
