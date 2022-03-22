@@ -41,5 +41,5 @@ This cli has a few options which you can use to define which dataset you will be
 flureecli --network fluree --db 387028092977257 --privateKey 1611e1493b550fd9995ca7a5f66e8b98f8d4b7217cea72deedef1e2895c66fd6 -j '{"select":["*"], "from":"taxonomy","opts":{"compact":true}}' -u https://localhost:8090/
 ```
 
-This connects to a dataset running on my flureehub and submits a simple query.
+This connects to a ledger server running on your machine and submits a simple query.
 The response is printed to the console.
