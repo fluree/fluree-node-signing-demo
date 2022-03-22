@@ -1,6 +1,6 @@
-# Fluree CLI
+# Fluree Node.js signing demo
 
-| This repo is a demo of how to use the crypto lib to sign a query and submit it to Fluree Hub
+| This repo is a demo of how to use the crypto lib to sign a query and submit it to Fluree
 
 ## npm Link
 
@@ -38,7 +38,7 @@ This cli has a few options which you can use to define which dataset you will be
 ## Example
 
 ``` sh
-flureecli --network fluree --db 387028092977257 --privateKey 1611e1493b550fd9995ca7a5f66e8b98f8d4b7217cea72deedef1e2895c66fd6 -j '{"select":["*"], "from":"taxonomy","opts":{"compact":true}}' -u https://api.dev.flur.ee
+flureecli --network fluree --db 387028092977257 --privateKey 1611e1493b550fd9995ca7a5f66e8b98f8d4b7217cea72deedef1e2895c66fd6 -j '{"select":["*"], "from":"taxonomy","opts":{"compact":true}}' -u https://localhost:8090/
 ```
 
 This connects to a dataset running on my flureehub and submits a simple query.
